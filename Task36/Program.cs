@@ -40,7 +40,7 @@ namespace HomeTasks_KisEA
             int arraySize = Convert.ToInt32(Console.ReadLine());
             int[] numbers = createNewArray(arraySize);
             printArray(numbers);
-            Console.WriteLine($"Количество чётных чисел в массиве равно: {countOddPositions(numbers)}");
+            Console.WriteLine($"Сумма элементов на нечётных позициях равна : {countOddPositions(numbers)}");
 
         }
     }
